@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Blurrr WhatsApp",
+  "version": "1.0",
+  "description": "Hides whatsapp chats and messages",
+  "icons": {"48": "icon.png"},
+  "content_scripts": [
+    {
+      "matches": ["*://web.whatsapp.com/*"],
+      "css": ["index.css"]
+    }
+  ]
+}
